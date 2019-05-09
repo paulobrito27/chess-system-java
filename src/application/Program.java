@@ -1,13 +1,13 @@
 package application;
 
+import tabuleiro.Board;
 import tabuleiro.Position;
 
 public class Program {
 
 	public static void main(String[] args) {
-		
-		Position pos = new Position(2, 5);
-		System.out.println(pos);
+
+		Board board = new Board(3, 5);
 
 	}
 
